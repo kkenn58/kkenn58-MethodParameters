@@ -22,7 +22,7 @@ public class ParrotTest {
     public void parrotTestPolly(){
         String input = "polly";
         String expected = "polly";
-        String actual = p.copy(input);
+        String actual = p.copy2(input);
         Assert.assertEquals(expected, actual);
     }
 }
